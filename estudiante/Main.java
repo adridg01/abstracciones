@@ -1,3 +1,5 @@
+package estudiante;
+
 import java.util.Arrays;
 
 public class Main {

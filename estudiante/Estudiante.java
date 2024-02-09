@@ -1,3 +1,5 @@
+package estudiante;
+
 public class Estudiante implements Comparable<Estudiante>{
     protected String nombre;
     protected int edad;
@@ -18,11 +20,10 @@ public class Estudiante implements Comparable<Estudiante>{
 
     @Override
     public String toString() {
-        return "Estudiante{" +
+        return
                 "nombre='" + nombre + '\'' +
                 ", edad=" + edad +
-                ", altura=" + altura +
-                '}';
+                ", altura=" + altura ;
     }
 
     @Override
